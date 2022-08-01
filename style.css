@@ -7,18 +7,20 @@ body{
 
 .links{
   display: flex;
-  gap:12px;
+  gap:16px;
 }
 
 .top{
-  padding:16px 90px 90px 120px;
+  padding:16px 100px 100px 200px;
   background-color: #1F2937;
   color:white;
 }
 
 .heading{
   font-size: 24px;
-  color: #f9faf8;
+  color: #F9FAF8;
+  font-weight: 790;
+
 }
 
 .hero{
@@ -30,17 +32,21 @@ body{
 .text,
 a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   color: #e5e7eb; 
+}
+
+.second{
+  padding-right:70px;
 }
 
 .cont{
   display: flex;
   align-items: center;
-  gap:16px;
 }
 .right,
 .left{
+  /* border:3px solid; */
   display:flex;
   justify-content: center;
   align-items: center;
@@ -67,4 +73,5 @@ button{
   border-radius: 8px;
   border: 0;
   margin-top:8px;
+  font-weight: 700;
 }
